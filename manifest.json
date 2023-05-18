@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "name": "Magnus",
+    "version":"1.0.0",
+    "description":"This is a personal project in efforts to make a clone of the famous extension Momentum ",
+    "author":"bhavya vaid",
+    "permissions": ["activeTab","alarms","notifications","storage","contextMenus"],
+    "chrome_url_overrides":{
+        "newtab": "index.html"
+    }
+}
+
