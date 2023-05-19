@@ -4,7 +4,7 @@
     "version":"1.0.0",
     "description":"This is a personal project in efforts to make a clone of the famous extension Momentum ",
     "author":"bhavya vaid",
-    "permissions": ["activeTab","alarms","notifications","storage","contextMenus"],
+    "permissions": ["activeTab","alarms","notifications","storage","contextMenus","geolocation"],
     "chrome_url_overrides":{
         "newtab": "index.html"
     }

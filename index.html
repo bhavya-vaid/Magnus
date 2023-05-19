@@ -10,15 +10,36 @@
 <body>
     <div id="bg"></div>
     <div class="container">
-        <div id="header"></div>
+        <div id="header">
+            <div id="weather">
+                <div>
+                    <img src="" alt="" id="weather-icon">
+                </div>    
+                <div>
+                    <span id="temperature"></span>&#8451;
+                </div>
+            </div>
+        </div>
         <div id="center">
             <div id="time"></div>
             <div id="quote"></div>
         </div>
         <div id="footer"></div>
+        <div id="card" style="display:none;">
+            <h2>Todos</h2>
+            <ul id="tasks">
+
+            </ul>
+            <input type="text" id="newTask">
+            <button id="addTask">Add task</button>
+        </div>
+        <div id="todo">Todo</div>
     </div>
     <script src="jq.js"></script>
     <script src="background-image.js"></script>
     <script src="time.js"></script>
+    <script src="quote.js"></script>
+    <script src="weather.js"></script>
+    <script src="todo.js"></script>
 </body>
 </html>
