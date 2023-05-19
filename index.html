@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+<div id="popup">
+   
+</div>
 <body>
+    
     <div id="bg"></div>
     <div class="container">
         <div id="header">
+            <div id="quickMail">
+                <div><a style="color: white; text-decoration: none;"  href="https://mail.google.com/mail/u/0/#inbox?compose=new">Quick mail</a></div>
+
+            </div>
             <div id="weather">
                 <div>
                     <img src="" alt="" id="weather-icon">
@@ -22,24 +30,31 @@
         </div>
         <div id="center">
             <div id="time"></div>
-            <div id="quote"></div>
+            <div id="greeting"></div>
+            
         </div>
-        <div id="footer"></div>
-        <div id="card" style="display:none;">
-            <h2>Todos</h2>
+        <div id="quote"></div>
+        <div id="footer">
+        <div id="todo-app" style="display:none;">
+            <h2>To-do List <img src="images/icon.png" ></h2>
+          
+            <div class="row">
+                <input type="text" id="newTask" placeholder="New todo">
+                <button id="addTask" >Add </button>
+            </div>
             <ul id="tasks">
 
             </ul>
-            <input type="text" id="newTask">
-            <button id="addTask">Add task</button>
         </div>
         <div id="todo">Todo</div>
     </div>
     <script src="jq.js"></script>
     <script src="background-image.js"></script>
     <script src="time.js"></script>
+    <script src="greeting.js"></script>
     <script src="quote.js"></script>
     <script src="weather.js"></script>
     <script src="todo.js"></script>
+   
 </body>
 </html>

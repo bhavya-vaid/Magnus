@@ -9,7 +9,7 @@ $(function(){
             <li class=${task.done ? "complete": "incomplete"}>
             <input ${task.done ? "checked": ""} class="done" type="checkbox"/>
             ${task.name}
-            <button  class="delete">Delete</button>
+            <button  class="delete">X</button>
             </li>` 
 
         }  $("#tasks").append(str)
@@ -69,7 +69,7 @@ $(function(){
             })
     })
     $("#todo").on("click",function(){
-        $("#card").fadeToggle();
+        $("#todo-app").fadeToggle();
 
     })
     
